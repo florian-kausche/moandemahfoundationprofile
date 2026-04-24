@@ -225,7 +225,18 @@ main {
   letter-spacing: 0.18em;
   font-size: 0.78rem;
   font-weight: 700;
+}
+
+.eyebrow {
   color: #d9f0df;
+}
+
+.section-kicker {
+  color: #2e6b45;
+  background: rgba(118, 180, 138, 0.15);
+  border: 1px solid rgba(46, 107, 69, 0.16);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
 }
 
 .hero h1 {
