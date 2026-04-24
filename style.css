@@ -661,8 +661,21 @@ main {
     padding: 4.5rem 1rem;
   }
 
+  body {
+    font-size: 16.5px;
+    line-height: 1.72;
+  }
+
   .navbar {
     padding-inline: 1rem;
+  }
+
+  .brand-text strong {
+    font-size: 0.95rem;
+  }
+
+  .brand-text small {
+    font-size: 0.76rem;
   }
 
   .hero {
@@ -670,8 +683,49 @@ main {
     padding-bottom: 1.2rem;
   }
 
+  .hero h1 {
+    font-size: clamp(2.15rem, 10vw, 2.8rem);
+    line-height: 1.04;
+  }
+
+  .hero-subtitle {
+    font-size: 1.02rem;
+    line-height: 1.45;
+  }
+
   .hero-copy {
+    font-size: 1rem;
+    line-height: 1.72;
+  }
+
+  .btn {
+    min-height: 50px;
+    padding: 0.9rem 1.2rem;
     font-size: 0.98rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.55rem, 8vw, 2rem);
+    line-height: 1.16;
+  }
+
+  .section-kicker {
+    font-size: 0.74rem;
+    letter-spacing: 0.14em;
+  }
+
+  .about-story p,
+  .story-panel p,
+  .partner-card p,
+  .contact-card p,
+  .program-card p,
+  .card-body p {
+    font-size: 0.99rem;
+    line-height: 1.72;
+  }
+
+  .card-body {
+    padding: 1rem;
   }
 
   .program-grid,
