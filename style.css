@@ -3,7 +3,7 @@
   --surface: #ffffff;
   --surface-2: #eef7ef;
   --text: #15301f;
-  --muted: #557060;
+  --muted: #3f5d4b;
   --green: #4d8b61;
   --green-2: #76b48a;
   --line: rgba(21, 48, 31, 0.1);
@@ -352,6 +352,7 @@ main {
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1.08;
   letter-spacing: -0.04em;
+  color: #173624;
 }
 
 .about-grid,
@@ -515,6 +516,24 @@ main {
 .cta-card .section-kicker,
 .cta-card p {
   color: rgba(255, 255, 255, 0.84);
+}
+
+.cta-card .section-kicker {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.contact-card a,
+.site-footer a {
+  color: #1f5f3b;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-card a:hover,
+.site-footer a:hover {
+  color: #174b2f;
 }
 
 .contact-grid {
